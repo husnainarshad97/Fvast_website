@@ -39,9 +39,9 @@ export default function HeaderLinks(props) {
             <Link to="/privacy" className={classes.dropdownLink}>
               Privacy
             </Link>,
-            <a href="/terms" className={classes.dropdownLink}>
+            <Link to="/terms" className={classes.dropdownLink}>
               Terms and Conditions
-            </a>,
+            </Link>,
           ]}
         />
       </ListItem>
